@@ -34,7 +34,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 border-t">
+        <section className="w-full py-12 md:py-24 lg:py-32 border-t" id="skils">
           <div className="container grid items-center gap-4 px-4 text-center md:px-6 lg:gap-10">
             <div className="space-y-3">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">My Skills</h2>
@@ -42,13 +42,13 @@ export default function Home() {
                 I'm experienced with modern front-end technologies and frameworks.
               </p>
             </div>
-            <div className="mx-auto grid max-w-sm grid-cols-2 max-sm:grid-cols-1 items-center justify-center gap-4">
+            <div className="mx-auto grid max-w-sm grid-cols-2 max-sm:grid-cols-2 items-center justify-center gap-4">
               <div className="mx-auto flex w-full items-center justify-center p-4 sm:p-8">
                 <img
                   alt="Logo"
                   className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
                   height="70"
-                  src="/placeholder.svg"
+                  src="https://img.icons8.com/color/48/html-5--v1.png"
                   width="140"
                 />
               </div>
@@ -57,7 +57,7 @@ export default function Home() {
                   alt="Logo"
                   className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
                   height="70"
-                  src="/placeholder.svg"
+                  src="https://img.icons8.com/color/48/css3.png"
                   width="140"
                 />
               </div>
@@ -66,7 +66,7 @@ export default function Home() {
                   alt="Logo"
                   className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
                   height="70"
-                  src="/placeholder.svg"
+                  src="https://img.icons8.com/fluency/48/javascript.png"
                   width="140"
                 />
               </div>
@@ -75,35 +75,22 @@ export default function Home() {
                   alt="Logo"
                   className="aspect-[2/1] overflow-hidden rounded-lg object-contain object-center"
                   height="70"
-                  src="/placeholder.svg"
+                  src="https://img.icons8.com/plasticine/100/react.png"
                   width="140"
                 />
               </div>
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 border-t">
-          <div className="container grid items-center justify-center gap-4 px-4 text-center md:px-6 lg:gap-10">
-            <div className="space-y-3">
-              <h2 className="text-3xl font-bold tracking-tighter md:text-4xl/tight">
-                Experience the workflow the best frontend teams love.
-              </h2>
-              <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                Let your team focus on shipping features instead of managing infrastructure with automated CI/CD.
-              </p>
-            </div>
-            <div className="mx-auto w-full max-w-sm space-y-2">
-              <form className="flex space-x-2">
-                <Input className="max-w-lg flex-1" placeholder="Enter your email" type="email" />
-                <Button type="submit">Sign Up</Button>
-              </form>
-              <p className="text-xs text-gray-500 dark:text-gray-400">
-                Sign up to get notified when we launch.
-                <Link className="underline underline-offset-2" href="#">
-                  Terms & Conditions
-                </Link>
-              </p>
-            </div>
+        <section className="w-full py-12 md:py-24 lg:py-32 border-t" id="projects">
+          <header className="text-center">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Projects</h2>
+                <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+                  Explore a selection of my latest web development projects, showcasing my skills and creativity.
+                </p>
+          </header>
+          <div className="text-center ">
+            <h2 className="text-3xl pt-16 font-semibold">coming soon...</h2>
           </div>
         </section>
       </main>
@@ -112,9 +99,6 @@ export default function Home() {
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link className="text-xs hover:underline underline-offset-4" href="#">
             Terms of Service
-          </Link>
-          <Link className="text-xs hover:underline underline-offset-4" href="#">
-            Privacy
           </Link>
         </nav>
       </footer>
